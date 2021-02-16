@@ -1,3 +1,3 @@
-# House_prediction - R
+# House prediction - R
 
 MyFirstProject
