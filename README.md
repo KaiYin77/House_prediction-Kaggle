@@ -1,7 +1,6 @@
 # House prediction - R
 
 目標：預測印第安納州房價
-=============
 
 ## 步驟： ##
   1.瀏覽dataset的各個變數並且製作了幾張圖。
@@ -21,7 +20,9 @@
   3.資料準備好囉！
 ### 三. ###
    1.我們利用SVM(support vector machine)來預測房價。
-   >svm簡介：library(e1071)package中。SVM的概念是讓資料區分成兩類，所以又被稱為二元分類器(binaryclassifier)。svm()中，有幾個參數需要注意，像是C(cost)。C愈小愈好。
+  
+  >svm簡介：library(e1071)package中。SVM的概念是讓資料區分成兩類，所以又被稱為二元分類器(binaryclassifier)。svm()中，有幾個參數需要注意，像是C(cost)。C愈小愈好。
+   
    2.將預測結果輸出成team01.csv。
    3.上傳kaggle得知erro的rms為0.12089。
 
